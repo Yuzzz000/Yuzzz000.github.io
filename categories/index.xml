@@ -2,33 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Yuyis</title>
-        <link>https://example.com/categories/</link>
+        <link>https://yuzzz000.github.io/categories/</link>
         <description>Recent content in Categories on Yuyis</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Yuyi</copyright>
-        <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>syntax</title>
-        <link>https://example.com/categories/syntax/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        <copyright>Yuyis</copyright>
+        <lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzzz000.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>机崽成长记</title>
+        <link>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</link>
+        <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>themes</title>
-        <link>https://example.com/categories/themes/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/themes/</guid>
+        <guid>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</guid>
         <description></description>
         </item>
         <item>
         <title>Example Category</title>
-        <link>https://example.com/categories/example-category/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <link>https://yuzzz000.github.io/categories/example-category/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/example-category/</guid>
+        <guid>https://yuzzz000.github.io/categories/example-category/</guid>
         <description></description>
         </item>
         

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Yuyis</title>
-        <link>https://yuzzz000.github.io/post/</link>
-        <description>Recent content in Posts on Yuyis</description>
+        <title>机崽成长记 on Yuyis</title>
+        <link>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</link>
+        <description>Recent content in 机崽成长记 on Yuyis</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuyis</copyright>
-        <lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>利用Hugo建立本站（非技术向）（水）</title>
         <link>https://yuzzz000.github.io/p/jian-zhan/</link>
         <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
