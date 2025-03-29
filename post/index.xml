@@ -7,7 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuyis</copyright>
-        <lastBuildDate>Sat, 29 Mar 2025 19:01:48 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Mar 2025 20:01:48 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>test2</title>
+        <link>https://yuzzz000.github.io/p/test2/</link>
+        <pubDate>Sat, 29 Mar 2025 20:01:48 +0800</pubDate>
+        
+        <guid>https://yuzzz000.github.io/p/test2/</guid>
+        <description>&lt;p&gt;test
+&lt;a class=&#34;link&#34; href=&#34;../baya/&#34; &gt;baya&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;../baya.JPG/&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../suger_cookie/&#34; &gt;suger_cookie&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>test</title>
         <link>https://yuzzz000.github.io/p/test/</link>
         <pubDate>Sat, 29 Mar 2025 19:01:48 +0800</pubDate>
@@ -464,20 +478,6 @@
 大多数教程用git克隆主题，但也有人专门提过这么做不太好（忘了在哪看到），所以大家想搭的话可以查下这方面。&lt;/p&gt;
 &lt;h3 id=&#34;写博客&#34;&gt;写博客&lt;/h3&gt;
 &lt;p&gt;为了充实博客内容，先水一篇。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>test2</title>
-        <link>https://yuzzz000.github.io/p/test2/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yuzzz000.github.io/p/test2/</guid>
-        <description>&lt;p&gt;test
-&lt;a class=&#34;link&#34; href=&#34;../baya/&#34; &gt;baya&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;../baya.JPG/&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../suger_cookie/&#34; &gt;suger_cookie&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
