@@ -31,6 +31,30 @@
 &lt;p&gt;为了充实博客内容，先水一篇。&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>利用Hugo建立本站（非技术向）（水）</title>
+        <link>https://yuzzz000.github.io/posts/jian-zhan/</link>
+        <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzzz000.github.io/posts/jian-zhan/</guid>
+        <description>&lt;h3 id=&#34;建博客初衷&#34;&gt;建博客初衷&lt;/h3&gt;
+&lt;p&gt;跟风。钓鱼。&lt;/p&gt;
+&lt;h3 id=&#34;确定博客方案&#34;&gt;确定博客方案&lt;/h3&gt;
+&lt;p&gt;作为一个不懂技术的，连动态网站和静态网站区别都不知道的，但是懂得运用统计的人，我把一个我经常看的博客的友链和友链的友链点了一遍，以下是高频方案：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;wordpress. 但是免费版有广告且据说很慢，自己买服务器搭又要持续性花钱，维护也会占用精力，之前搞过一个这样的站所以没有搭建新鲜感了。排除。&lt;/li&gt;
+&lt;li&gt;静态框架搭建，其中Hugo数量最多。还挺想尝试的。&lt;/li&gt;
+&lt;li&gt;notion。好处是没有学习成本（我本来就有在用notion），坏处是丑&amp;amp;low，不适合装x。（更重要的坏处应该是不能rss）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;于是选择了Hugo，选了个界面排列非常舒适的主题stack。这个主题用的人非常多，能搜到很多修改方案。&lt;/p&gt;
+&lt;h3 id=&#34;搭建博客&#34;&gt;搭建博客&lt;/h3&gt;
+&lt;p&gt;搭建教程很多，我一知半解就不写了。装修非常感谢&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kyo&lt;/a&gt;的教程。
+大多数教程用git克隆主题，但也有人专门提过这么做不太好（忘了在哪看到），所以大家想搭的话可以查下这方面。&lt;/p&gt;
+&lt;h3 id=&#34;写博客&#34;&gt;写博客&lt;/h3&gt;
+&lt;p&gt;为了充实博客内容，先水一篇。&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>
