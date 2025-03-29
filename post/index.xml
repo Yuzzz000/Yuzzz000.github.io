@@ -15,7 +15,7 @@
         <guid>https://yuzzz000.github.io/p/test/</guid>
         <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
 &lt;p&gt;这只是一个测试没关系。
-试试链接。[[2024final]]&lt;/p&gt;
+试试链接。&lt;a class=&#34;link&#34; href=&#34;2024final.md&#34; &gt;2024final&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;就先这样。&lt;/p&gt;
 </description>
         </item>
@@ -464,6 +464,17 @@
 大多数教程用git克隆主题，但也有人专门提过这么做不太好（忘了在哪看到），所以大家想搭的话可以查下这方面。&lt;/p&gt;
 &lt;h3 id=&#34;写博客&#34;&gt;写博客&lt;/h3&gt;
 &lt;p&gt;为了充实博客内容，先水一篇。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>test2</title>
+        <link>https://yuzzz000.github.io/p/test2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzzz000.github.io/p/test2/</guid>
+        <description>&lt;p&gt;test
+&lt;a class=&#34;link&#34; href=&#34;baya.md&#34; &gt;baya&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;baya.JPG.md&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
