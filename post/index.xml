@@ -7,7 +7,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuyis</copyright>
-        <lastBuildDate>Wed, 19 Feb 2025 16:55:00 +0000</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Mar 2025 19:01:48 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>test</title>
+        <link>https://yuzzz000.github.io/p/test/</link>
+        <pubDate>Sat, 29 Mar 2025 19:01:48 +0800</pubDate>
+        
+        <guid>https://yuzzz000.github.io/p/test/</guid>
+        <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
+&lt;p&gt;这只是一个测试没关系。
+试试链接。[[2024final]]&lt;/p&gt;
+&lt;p&gt;就先这样。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>喂饭级Mastodon嘟文字数修改和长嘟文折叠</title>
         <link>https://yuzzz000.github.io/p/mastodon-modify0/</link>
         <pubDate>Wed, 19 Feb 2025 16:55:00 +0000</pubDate>
