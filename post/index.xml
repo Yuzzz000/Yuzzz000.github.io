@@ -7,34 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuyis</copyright>
-        <lastBuildDate>Sat, 29 Mar 2025 20:01:48 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>test2</title>
-        <link>https://yuzzz000.github.io/p/test2/</link>
-        <pubDate>Sat, 29 Mar 2025 20:01:48 +0800</pubDate>
-        
-        <guid>https://yuzzz000.github.io/p/test2/</guid>
-        <description>&lt;p&gt;test
-&lt;a class=&#34;link&#34; href=&#34;../blog/baZhichi/index/&#34; &gt;blog/baZhichi/index&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;../baya.JPG/&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../blog/suger_cookie/index/&#34; &gt;blog/suger_cookie/index&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../IMG_0611.jpeg/&#34; &gt;IMG_0611.jpeg&lt;/a&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&#34;IMG_0611.jpeg&#34; width=&#34;50%&#34; /&gt;&lt;/center&gt;
-</description>
-        </item>
-        <item>
-        <title>test</title>
-        <link>https://yuzzz000.github.io/p/test/</link>
-        <pubDate>Sat, 29 Mar 2025 19:01:48 +0800</pubDate>
-        
-        <guid>https://yuzzz000.github.io/p/test/</guid>
-        <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
-&lt;p&gt;这只是一个测试没关系。
-试试链接。&lt;a class=&#34;link&#34; href=&#34;../blog/2024-final/index/&#34; &gt;blog/2024-final/index&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;就先这样。&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Wed, 19 Feb 2025 16:55:00 +0000</lastBuildDate><atom:link href="https://yuzzz000.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>喂饭级Mastodon嘟文字数修改和长嘟文折叠</title>
         <link>https://yuzzz000.github.io/p/%E5%96%82%E9%A5%AD%E7%BA%A7mastodon%E5%98%9F%E6%96%87%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9%E5%92%8C%E9%95%BF%E5%98%9F%E6%96%87%E6%8A%98%E5%8F%A0/</link>
         <pubDate>Wed, 19 Feb 2025 16:55:00 +0000</pubDate>
