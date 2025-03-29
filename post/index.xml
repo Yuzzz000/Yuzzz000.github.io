@@ -15,7 +15,7 @@
         <guid>https://yuzzz000.github.io/p/test/</guid>
         <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
 &lt;p&gt;这只是一个测试没关系。
-试试链接。&lt;a class=&#34;link&#34; href=&#34;2024final.md&#34; &gt;2024final&lt;/a&gt;&lt;/p&gt;
+试试链接。&lt;a class=&#34;link&#34; href=&#34;../2024final/&#34; &gt;2024final&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;就先这样。&lt;/p&gt;
 </description>
         </item>
@@ -199,10 +199,10 @@
         </item>
         <item>
         <title>家乡的糖油混合物</title>
-        <link>https://yuzzz000.github.io/p/sugercookie/</link>
+        <link>https://yuzzz000.github.io/p/suger_cookie/</link>
         <pubDate>Sat, 18 Jan 2025 12:00:00 +0000</pubDate>
         
-        <guid>https://yuzzz000.github.io/p/sugercookie/</guid>
+        <guid>https://yuzzz000.github.io/p/suger_cookie/</guid>
         <description>&lt;p&gt;据说我小时候（当然现在也是）很喜欢红糖小饼，那么就简单介绍一下吧！&lt;/p&gt;
 &lt;h3 id=&#34;什么是红糖小饼&#34;&gt;什么是红糖小饼&lt;/h3&gt;
 &lt;p&gt;顾名思义，糯米饼外裹一层红糖。&lt;/p&gt;
@@ -401,10 +401,10 @@
         </item>
         <item>
         <title>法语进程（1）</title>
-        <link>https://yuzzz000.github.io/p/fr/</link>
+        <link>https://yuzzz000.github.io/p/fr-un/</link>
         <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzzz000.github.io/p/fr/</guid>
+        <guid>https://yuzzz000.github.io/p/fr-un/</guid>
         <description>&lt;h2 id=&#34;决定学法语&#34;&gt;&lt;strong&gt;决定学法语&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;决定学法语应该是在22年暑假。那个时候有润的念头没润的计划，既不知道自己喜欢什么也不知道该去向哪里，在浑浑噩噩中想着说不定学个小语种能进入另一条线。当时在德语和法语之间纠结，出于“学法语还能去加拿大那个很漂亮的法语区”的现实目的选择了法语。当然也有一些其他原因，一些巧合。&lt;/p&gt;
 &lt;p&gt;于是我开始多邻国打卡，还邀请朋友一起学。但很可惜，在随后的9月我恋爱了，几乎所有时间都被其占据，法语计划被我搁置，搁置到23年春天才重新开始多邻国。&lt;/p&gt;
@@ -473,8 +473,9 @@
         
         <guid>https://yuzzz000.github.io/p/test2/</guid>
         <description>&lt;p&gt;test
-&lt;a class=&#34;link&#34; href=&#34;baya.md&#34; &gt;baya&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;baya.JPG.md&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
+&lt;a class=&#34;link&#34; href=&#34;../baya/&#34; &gt;baya&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;../baya.JPG/&#34; &gt;baya.JPG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;../suger_cookie/&#34; &gt;suger_cookie&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
