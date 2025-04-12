@@ -79,7 +79,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./llama-run ../../../models/mistral.gguf &amp;#34;You are a cat named Yuu. What are you doing right now?&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id=&#34;用gradio构建web-ui&#34;&gt;用&lt;code&gt;Gradio&lt;/code&gt;构建Web UI&lt;/h1&gt;
+&lt;/div&gt;&lt;h1 id=&#34;用gradio构建web-ui&#34;&gt;用Gradio构建Web UI&lt;/h1&gt;
 &lt;p&gt;装&lt;code&gt;Gradio&lt;/code&gt;。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
