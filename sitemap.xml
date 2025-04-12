@@ -3,16 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuzzz000.github.io/</loc>
-    <lastmod>2025-04-01T20:10:54+08:00</lastmod>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/categories/</loc>
-    <lastmod>2025-04-01T20:10:54+08:00</lastmod>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
+  </url><url>
+    <loc>https://yuzzz000.github.io/tags/llm/</loc>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
+  </url><url>
+    <loc>https://yuzzz000.github.io/p/llm%E5%88%9D%E5%B0%9D%E8%AF%95vps%E9%83%A8%E7%BD%B2mistral-7bgguf-%E9%87%8F%E5%8C%96%E7%89%88/</loc>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/post/</loc>
-    <lastmod>2025-04-01T20:10:54+08:00</lastmod>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/tags/</loc>
-    <lastmod>2025-04-01T20:10:54+08:00</lastmod>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
+  </url><url>
+    <loc>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</loc>
+    <lastmod>2025-04-12T19:47:57+08:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/p/%E5%A6%82%E6%9E%9C%E4%B8%80%E8%BE%88%E5%AD%90%E4%B8%8D%E7%94%A8%E4%B8%8A%E7%8F%AD/</loc>
     <lastmod>2025-04-01T20:10:54+08:00</lastmod>
@@ -24,9 +33,6 @@
     <lastmod>2025-04-01T20:10:54+08:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/tags/mastodon/</loc>
-    <lastmod>2025-02-19T16:55:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</loc>
     <lastmod>2025-02-19T16:55:00+00:00</lastmod>
   </url><url>
     <loc>https://yuzzz000.github.io/p/%E5%96%82%E9%A5%AD%E7%BA%A7mastodon%E5%98%9F%E6%96%87%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9%E5%92%8C%E9%95%BF%E5%98%9F%E6%96%87%E6%8A%98%E5%8F%A0/</loc>

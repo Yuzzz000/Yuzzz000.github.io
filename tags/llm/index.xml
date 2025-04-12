@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>机崽成长记 on Yuyis</title>
-        <link>https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/</link>
-        <description>Recent content in 机崽成长记 on Yuyis</description>
+        <title>LLM on Yuyis</title>
+        <link>https://yuzzz000.github.io/tags/llm/</link>
+        <description>Recent content in LLM on Yuyis</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuyis</copyright>
-        <lastBuildDate>Sat, 12 Apr 2025 19:47:57 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/categories/%E6%9C%BA%E5%B4%BD%E6%88%90%E9%95%BF%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Apr 2025 19:47:57 +0800</lastBuildDate><atom:link href="https://yuzzz000.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LLM初尝试：VPS部署Mistral-7B（GGUF 量化版）</title>
         <link>https://yuzzz000.github.io/p/llm%E5%88%9D%E5%B0%9D%E8%AF%95vps%E9%83%A8%E7%BD%B2mistral-7bgguf-%E9%87%8F%E5%8C%96%E7%89%88/</link>
         <pubDate>Sat, 12 Apr 2025 19:47:57 +0800</pubDate>
@@ -471,143 +471,6 @@
 &lt;/div&gt;&lt;h1 id=&#34;评估&#34;&gt;评估&lt;/h1&gt;
 &lt;p&gt;好了，它已经上线了，但由于服务器带不动，反应非常慢，就不放出来给大家玩了。
 之后可能再尝试微调，有机会的话再放到配置高一点的服务器。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>喂饭级Mastodon嘟文字数修改和长嘟文折叠</title>
-        <link>https://yuzzz000.github.io/p/%E5%96%82%E9%A5%AD%E7%BA%A7mastodon%E5%98%9F%E6%96%87%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9%E5%92%8C%E9%95%BF%E5%98%9F%E6%96%87%E6%8A%98%E5%8F%A0/</link>
-        <pubDate>Wed, 19 Feb 2025 16:55:00 +0000</pubDate>
-        
-        <guid>https://yuzzz000.github.io/p/%E5%96%82%E9%A5%AD%E7%BA%A7mastodon%E5%98%9F%E6%96%87%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9%E5%92%8C%E9%95%BF%E5%98%9F%E6%96%87%E6%8A%98%E5%8F%A0/</guid>
-        <description>&lt;h2 id=&#34;适用情况&#34;&gt;适用情况&lt;/h2&gt;
-&lt;p&gt;按文档部署的，没用docker。用docker的可以参考&lt;a class=&#34;link&#34; href=&#34;https://pullopen.github.io/%E8%BF%9B%E9%98%B6%E9%AD%94%E6%94%B9/2020/11/14/mastodon-modify.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这位&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;嘟文字数修改&#34;&gt;嘟文字数修改&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;以mastodon用户（如果当初是按文档建在mastodon用户下的话）进入&lt;code&gt;live&lt;/code&gt; ：
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;su - mastodon&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd live&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;编辑 &lt;code&gt;status_length_validator.rb&lt;/code&gt; ：
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;nano app/validators/status_length_validator.rb&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;将&lt;code&gt;MAX_CHARS = 500&lt;/code&gt; 改成想要的字数，并保存&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;编译前端
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;RAILS_ENV=production bundle exec rails assets:precompile&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;重启
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;su -&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;systemctl restart mastodon-web mastodon-sidekiq mastodon-streaming&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;长嘟文折叠&#34;&gt;长嘟文折叠&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;同以上1&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;编辑&lt;code&gt;mastodon-light.scss&lt;/code&gt; （也可能是&lt;code&gt;mastodon.scss&lt;/code&gt; ）&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;cd app/javascript/styles&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;nano mastodon-light.scss&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;添加以下代码并保存&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.status__content &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    max-height: 250px&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; /* 设置最大高度，可调整，我决定250或者300就挺好 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    overflow: hidden&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    position: relative&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.status__content::after &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    content: &lt;span class=&#34;s1&#34;&gt;&amp;#39;... 点击展开&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    display: block&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    text-align: center&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    background: linear-gradient&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;to top, rgba&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;255, 255, 255, 1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, rgba&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;255, 255, 255, 0&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    position: absolute&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    bottom: 0&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    width: 100%&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    height: 30px&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    line-height: 30px&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    cursor: pointer&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.status__content.expanded &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    max-height: none&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;同上。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;同上。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>利用Hugo建立本站（非技术向）（水）</title>
-        <link>https://yuzzz000.github.io/p/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E6%9C%AC%E7%AB%99%E9%9D%9E%E6%8A%80%E6%9C%AF%E5%90%91%E6%B0%B4/</link>
-        <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://yuzzz000.github.io/p/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E6%9C%AC%E7%AB%99%E9%9D%9E%E6%8A%80%E6%9C%AF%E5%90%91%E6%B0%B4/</guid>
-        <description>&lt;h3 id=&#34;建博客初衷&#34;&gt;建博客初衷&lt;/h3&gt;
-&lt;p&gt;跟风。钓鱼。&lt;/p&gt;
-&lt;h3 id=&#34;确定博客方案&#34;&gt;确定博客方案&lt;/h3&gt;
-&lt;p&gt;作为一个不懂技术的，连动态网站和静态网站区别都不知道的，但是懂得运用统计的人，我把一个我经常看的博客的友链和友链的友链点了一遍，以下是高频方案：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;wordpress. 但是免费版有广告且据说很慢，自己买服务器搭又要持续性花钱，维护也会占用精力，之前搞过一个这样的站所以没有搭建新鲜感了。排除。&lt;/li&gt;
-&lt;li&gt;静态框架搭建，其中Hugo数量最多。还挺想尝试的。&lt;/li&gt;
-&lt;li&gt;notion。好处是没有学习成本（我本来就有在用notion），坏处是丑&amp;amp;low，不适合装x。（更重要的坏处应该是不能rss）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;于是选择了Hugo，选了个界面排列非常舒适的主题stack。这个主题用的人非常多，能搜到很多修改方案。&lt;/p&gt;
-&lt;h3 id=&#34;搭建博客&#34;&gt;搭建博客&lt;/h3&gt;
-&lt;p&gt;搭建教程很多，我一知半解就不写了。装修非常感谢&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kyo&lt;/a&gt;的教程。
-大多数教程用git克隆主题，但也有人专门提过这么做不太好（忘了在哪看到），所以大家想搭的话可以查下这方面。&lt;/p&gt;
-&lt;h3 id=&#34;写博客&#34;&gt;写博客&lt;/h3&gt;
-&lt;p&gt;为了充实博客内容，先水一篇。&lt;/p&gt;
 </description>
         </item>
         
