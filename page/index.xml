@@ -39,22 +39,21 @@
 </description>
         </item>
         <item>
-        <title>链接 ｜ link</title>
-        <link>https://yuzzz000.github.io/%E9%93%BE%E6%8E%A5-link/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yuzzz000.github.io/%E9%93%BE%E6%8E%A5-link/</guid>
-        <description>&lt;p&gt;这是一个积灰的仓库，未来有一天也许会打扫。
-虽然现在还没有友链，但请来和我互加友链。&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>搜索 ｜ Search</title>
         <link>https://yuzzz000.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://yuzzz000.github.io/search/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>友链 ｜ link</title>
+        <link>https://yuzzz000.github.io/%E5%8F%8B%E9%93%BE-link/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzzz000.github.io/%E5%8F%8B%E9%93%BE-link/</guid>
+        <description>&lt;p&gt;是的，这是——友链！&lt;/p&gt;
+</description>
         </item>
         
     </channel>
